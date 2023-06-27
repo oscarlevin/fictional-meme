@@ -46,7 +46,7 @@
     </frontmatter>
 
     <chapter xml:id="chapter-title">
-      <title>Chapter title</title>
+      <title>Chapter mixed</title>
 
       <section xml:id="section-title">
         <title>Section title</title>
@@ -108,12 +108,93 @@
           </p>
         </exercise>
       </worksheet>
+
+      <exercises xml:id="exercises-test1">
+        <exercise>
+          <statement>
+            <p>
+              Quisque ut dolor gravida, placerat libero vel, euismod. Ambitioni dedisse scripsisse iudicaretur. Donec sed odio operae, eu vulputate felis rhoncus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            </p>
+          </statement>
+        </exercise>
+      </exercises>
+      <exercises xml:id="exercises-test2">
+        <exercise>
+          <statement>
+            <p>
+              Quisque ut dolor gravida, placerat libero vel, euismod. Ambitioni dedisse scripsisse iudicaretur. Donec sed odio operae, eu vulputate felis rhoncus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            </p>
+          </statement>
+        </exercise>
+      </exercises>
+    </chapter>
+    <chapter xml:id="chapter-worksheets">
+      <title>Worksheet and section of worksheets</title>
+      <worksheet xml:id="ws-secws1">
+        <title>A section worksheet</title>
+        <introduction>
+          <p>
+            Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+          </p>
+          <p>
+            Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+          </p>
+        </introduction>
+        <exercise number="2">
+          <p>
+            Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+          </p>
+        </exercise>
+      </worksheet>
+
+      <section xml:id="sec-1">
+        <title>A section with worksheets</title>
+        <worksheet xml:id="ws-11">
+          <title>My first worksheet</title>
+          <introduction>
+            <p>
+              Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent.
+            </p>
+          </introduction>
+          <exercise workspace="2in">
+            <statement>
+              <p>
+                Quisque ut dolor gravida, placerat libero vel, euismod. Ambitioni dedisse scripsisse iudicaretur. Donec sed odio operae, eu vulputate felis rhoncus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+                Petierunt uti sibi concilium totius Galliae in diem certam indicere. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+              </p>
+            </statement>
+            <solution>
+              <p>
+                Non equidem invideo, miror magis posuere velit aliquet. Quisque placerat facilisis egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna. Contra legem facit qui id facit quod lex prohibet. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
+                Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+                Ab illo tempore, ab est sed immemorabili. Cum sociis natoque penatibus et magnis dis parturient. Quam diu etiam furor iste tuus nos eludet? Ut enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </solution>
+          </exercise>
+
+        </worksheet>
+        <worksheet xml:id="ws-12">
+          <title>Another worksheet</title>
+          <introduction>
+            <p>
+              Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent.
+
+            </p>
+            <p>
+              Quisque ut dolor gravida, placerat libero vel, euismod. Ambitioni dedisse scripsisse iudicaretur. Donec sed odio operae, eu vulputate felis rhoncus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            </p>
+          </introduction>
+
+        </worksheet>
+      </section>
+
+
     </chapter>
 
     <chapter xml:id="ch-only-exerciseses">
       <title>Only Exerciseses</title>
       <exercises xml:id="exercises-first">
-        <title>Exercises 1</title>
+        <title>My titled Exercises</title>
         <exercise>
           <p>
             A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
@@ -131,6 +212,9 @@
 
       </exercises>
       <exercises xml:id="exercises-second">
+        <title>Another exercises division</title>
+
+
         <exercise>
           <statement>
             <p>
@@ -146,6 +230,91 @@
           </statement>
         </exercise>
       </exercises>
+    </chapter>
+
+    <chapter xml:id="ch-mixed-ws-exerciseses">
+      <title>Worksheet and Exerciseses</title>
+      <introduction>
+        <p>
+          Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+        </p>
+      </introduction>
+      <section xml:id="sec-a-section">
+        <title>A section</title>
+        <p>
+          Quisque ut dolor gravida, placerat libero vel, euismod. Ambitioni dedisse scripsisse iudicaretur. Donec sed odio operae, eu vulputate felis rhoncus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+        </p>
+      </section>
+      <worksheet xml:id="worksheet-first-a">
+        <title>My Worksheet</title>
+        <exercise>
+          <p>
+            A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+          </p>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+            </p>
+          </statement>
+        </exercise>
+
+      </worksheet>
+      <exercises xml:id="exercises-second2">
+        <title>Another exercises division</title>
+        <exercise>
+          <statement>
+            <p> See <xref ref="worksheet-first-a" />. Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum. </p>
+          </statement>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            </p>
+          </statement>
+        </exercise>
+      </exercises>
+    </chapter>
+    <chapter xml:id="ch-worksheets-only">
+      <title>Worksheet only</title>
+      <worksheet xml:id="worksheet-first">
+        <title>Worksheet 1</title>
+        <exercise>
+          <p>
+            A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+          </p>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua, institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis, obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+            </p>
+          </statement>
+        </exercise>
+
+      </worksheet>
+      <worksheet xml:id="exercises-second22">
+        <exercise>
+          <statement>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+            </p>
+          </statement>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            </p>
+          </statement>
+        </exercise>
+      </worksheet>
     </chapter>
 
     <backmatter xml:id="backmatter">
